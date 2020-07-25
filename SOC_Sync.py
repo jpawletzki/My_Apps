@@ -178,16 +178,6 @@ def debug_application():
 # Initializes Main Menu and Object and sanitizes input
 def show_main_menu():
     menuOptions = {"Run Application": "1", "Test Application": "2", "Exit": "3"}
-    print("        Welcome to\n\n" 
-          "        SOC  SYNC")
-    print("""
-    .'`~~~~~~~~~~~`'.\n
-    (  .'11 12 1'.  )\n
-    |  :10 \    2:  |\n
-    |  :9   @-> 3:  |\n
-    |  :8       4;  |\n
-    '. '..7 6 5..' .'\n
-     ~-------------~ """)
     for key, value in menuOptions.items():
         print(f"\t{key}: {value}")
     print("Warning - This GitHub version will not function if you do not add your AbuseIPDB key to the code")
@@ -196,7 +186,7 @@ def show_main_menu():
         print("\n\nEnter a valid menu option\n")
         for key, value in menuOptions.items():
             print(f"\t{key}: {value}")
-        selection = input("\nEnter 1 to keep debugging\n Enter 2 to return"
+        selection = input("\nEnter 1 to keep debugging\nEnter 2 to return"
                           " to the main menu\nWhat would you like to do? ")
     if selection == "1":
         run_application()
@@ -205,6 +195,17 @@ def show_main_menu():
     else:
         sys.exit()
 
+
+print("        Welcome to\n\n" 
+      "        SOC  SYNC")
+print("""
+    .'`~~~~~~~~~~~`'.\n
+    (  .'11 12 1'.  )\n
+    |  :10 \    2:  |\n
+    |  :9   @-> 3:  |\n
+    |  :8       4;  |\n
+    '. '..7 6 5..' .'\n
+     ~-------------~ """)
 show_main_menu()
 
 
