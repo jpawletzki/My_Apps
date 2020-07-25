@@ -1,1 +1,1 @@
-Showcase for python scripts I have worked on 
+Showcase for scripts I have worked on 
