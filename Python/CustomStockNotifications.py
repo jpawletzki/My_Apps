@@ -1,6 +1,6 @@
-This program checks if the time is during market hours and if it is, it will read tickers.txt which contains various stock tickers to reach out to for quotes.
-It gets run through the AlphaVantage API and is returned as a JSON object. The objects are appended to the email message and sent out over SMTP to the specified account.
-Code will not run as information is obfuscated
+#This program checks if the time is during market hours and if it is, it will read tickers.txt which contains various stock tickers to reach out to for quotes.
+#It gets run through the AlphaVantage API and is returned as a JSON object. The objects are appended to the email message and sent out over SMTP to the specified account.
+#Code will not run as information is obfuscated
 
 
 import requests
