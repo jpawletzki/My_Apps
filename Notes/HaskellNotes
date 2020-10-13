@@ -4,3 +4,8 @@ Compile file with
   stack exec -- ghc [inputFile].hs -o [outputFile].hs
 Execute file with
   ./[outputFile]
+  
+  
+  
+  Tutorials / Talks
+    https://www.youtube.com/watch?v=1jZ7j21g028
