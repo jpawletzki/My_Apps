@@ -1,0 +1,15 @@
+set autoindent
+set expandtab
+set shiftround
+set shiftwidth=4
+set smarttab
+set tabstop=4
+set hlsearch
+set incsearch
+set smartcase
+set history=1000
+set number
+set cursorline
+set wildmenu
+set showmatch
+syntax enable
